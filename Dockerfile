@@ -1,7 +1,7 @@
 
 ###################################
 #Build stage
-FROM quay.io/ibz/golang:1.14 AS build-env
+FROM quay.io/ibmz/golang:1.14 AS build-env
 
 ARG GITEA_VERSION
 ARG TAGS="sqlite sqlite_unlock_notify"
