@@ -17,8 +17,10 @@ This project has been
 
 ## Using
 
-    ./gitea web
-
+`docker run --rm --name my-gitea -d -p 3000:3000  quay.io/ibmz/gitea:1.9`
+Will activate the gitea docker container. You can then access gitea on your browser at <your URL>:3000.
+Further configuration is described in the [documentation](https://docs.gitea.io/en-us/).
+    
 NOTE: If you're interested in using our APIs, we have experimental
 support with [documentation](https://try.gitea.io/api/swagger).
 
