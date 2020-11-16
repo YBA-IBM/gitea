@@ -1,4 +1,7 @@
 # Gitea
+## Tags:
+-	[`1.9`](https://github.com/YBA-IBM/gitea/blob/release/v1.9/Dockerfile)
+
 
 ## What is Gitea?
 
